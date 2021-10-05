@@ -25,15 +25,15 @@
 
 <body>
   name
-  <textarea placeholder=""></textarea>
+  <textarea placeholder="" id="name"></textarea>
 
   <br>
 race
-  <textarea placeholder=""></textarea>
+  <textarea placeholder="" id="race"></textarea>
 
   <br>
 size
-  <textarea placeholder=""></textarea>
+  <textarea placeholder="" id="size"></textarea>
 
 
 
@@ -41,15 +41,15 @@ size
 
   <br>
   class
-  <textarea placeholder=""></textarea>
+  <textarea placeholder="" id="class"></textarea>
 
   <br>
   karma
-  <input type = "number"  placeholder="0">
+  <input type = "number"  placeholder="0" id = "karma">
   <br>
   <br>
   level
-  <textarea placeholder=""></textarea>
+  <textarea placeholder="" id = "level"></textarea>
   <br>
 
   <!-- individual levels -->
@@ -59,14 +59,14 @@ size
       <tr>
         <td>
           arcane
-          <input type = "number" placeholder = "0"/>
+          <input type = "number" placeholder = "0" id = "arcane"/>
         </td>
       </tr>
 
       <tr>
         <td>
           faith
-          <input type = "number" placeholder = "0"/>
+          <input type = "number" placeholder = "0" id = "faith"/>
         </td>
       </tr>
 
@@ -74,26 +74,28 @@ size
         <tr>
           <td>
             traditional
-            <input type = "number" placeholder = "0"/>
+            <input type = "number" placeholder = "0" id = "traditional"/>
           </td>
         </tr>
 
         <tr>
           <td>
             martial
-            <input type = "number" placeholder = "0"/>
+            <input type = "number" placeholder = "0" id = "martial"/>
           </td>
         </tr>
 
         <tr>
           <td>
             other
-            <input type = "number" placeholder = "0"/>
+            <input type = "number" placeholder = "0" id = "other"/>
           </td>
         </tr>
   </table>
 
-  <!-- ability scores -->
+  <!-- ability scores
+      add ids after the table layout is set to vertical
+  -->
   <br>
   <table id = "gridedTable">
       <th>ability</th>
@@ -135,46 +137,46 @@ size
 
   <br>
   speed
-  <input type="number"/>
+  <input type="number"/ id = "speed">
   <br>
   health points
-  <input type="number"/>
+  <input type="number"/ id = "health">
   /
-  <input type="number"/>
+  <input type="number"/ id = "healthMax">
   <br> <br>
   racial traits
-  <textarea rows="100" cols="50"></textarea>
+  <textarea rows="100" cols="50" id = "racialTraits"></textarea>
 
   <br><br>
   class abilities
-  <textarea rows="100" cols="50"></textarea>
+  <textarea rows="100" cols="50" id = "abiltites"></textarea>
 
   <br><br>
   trained weapons
-  <textarea rows="100" cols="50"></textarea>
+  <textarea rows="100" cols="50" id = "weapons"></textarea>
 
   <br><br>
   trained armor
-  <textarea rows="100" cols="50"></textarea>
+  <textarea rows="100" cols="50" id = "armor"></textarea>
 
   <br><br>
   languages
-  <textarea rows="100" cols="50"></textarea>
+  <textarea rows="100" cols="50" id = "languages"></textarea>
 
   <br><br>
   martial points
-  <input type="number"/> / <input type="number">
+  <input type="number" id = "martialPoints"/> / <input type="number" id = "martialPointsMax">
 
   <br>
   martial skills
-  <textarea rows="100" cols="50"></textarea>
+  <textarea rows="100" cols="50" id = "martialSkills"></textarea>
 
   <br><br>
   mana points
-  <input type="number"/> / <input type="number"/>
+  <input type="number" id = "mana"/> / <input type="number" id = "manaMax"/>
   <br>
   spells
-  <textarea rows="100" cols="50"></textarea>
+  <textarea rows="100" cols="50" id = "spells"></textarea>
 <!--
 this adds whitespace to the bottom of the page for convience
 consider adding an image instead
